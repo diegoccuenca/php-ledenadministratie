@@ -1,0 +1,8 @@
+<?php
+// Voorbeeldbestand. Kopieer dit naar database.local.php en vul lokaal je eigen gegevens in.
+return [
+    'host' => 'localhost',
+    'dbname' => 'ledenadministratie_eindop',
+    'username' => 'root',
+    'password' => 'VUL_JE_EIGEN_WACHTWOORD_IN',
+];

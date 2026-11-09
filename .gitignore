@@ -1,0 +1,21 @@
+# Lokaal bestand met echte database-inloggegevens
+/config/database.local.php
+
+# SQL-dumps kunnen persoonlijke gegevens / wachtwoordhashes bevatten
+/sql/export.sql
+/sql/*.dump.sql
+/sql/*backup*.sql
+*.sql.gz
+
+# macOS en IDE
+.DS_Store
+__MACOSX/
+._*
+.idea/
+.vscode/
+
+# Overige lokale en gevoelige bestanden
+.env
+.env.*
+!.env.example
+*.log
